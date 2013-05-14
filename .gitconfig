@@ -1,21 +1,30 @@
 [user]
-	name = silvansky
-	email = v.silvansky@gmail.com
+	name = Petr Korolev
+	email = sky4winder@gmail.com
 [mergetool "araxis"]
 	cmd = araxis-mergetool \"$LOCAL\" \"$REMOTE\" \"$MERGED\" \"$BASE\"
 [merge]
 	tool = araxis
 [alias]
-	su = submodule update
-	ci = commit
-	co = checkout
+	# Aliases
+	g = git
+	gst = git status
+	gpl = git pull
+	gc = git commit
+	gca = git commit -a
+	gch = git checkout
+	gcp = git cherry-pick
+	gmg = merge --no-ff
+	ch = checkout
 	st = status
 	mg = merge --no-ff
 	br = branch
 	df = diff
-	plog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ft = fetch
+	ps = push origin
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/p.korolev/.gitignore_global
+	editor = nano
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
