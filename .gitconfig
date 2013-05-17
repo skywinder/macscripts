@@ -7,13 +7,6 @@
 	tool = araxis
 [alias]
 	# Aliases
-	g = git
-	gst = git status
-	gpl = git pull
-	gc = git commit
-	gca = git commit -a
-	gch = git checkout
-	gcp = git cherry-pick
 	gmg = merge --no-ff
 	ch = checkout
 	st = status
@@ -22,6 +15,7 @@
 	df = diff
 	ft = fetch
 	ps = push origin
+
 [core]
 	excludesfile = /Users/p.korolev/.gitignore_global
 	editor = nano
