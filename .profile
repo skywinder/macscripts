@@ -18,6 +18,8 @@ export LESS_TERMCAP_ue=$'\E[0m'
 alias psg="ps -A | grep"
 alias lsa="ls -a"
 alias lsa="lsa | grep"
+alias cpath="pwd | pbcopy"
+alias ppath="cd \"\""
 alias init-ssh="exec ssh-agent bash && ssh-add && security unlock-keychain"
 
 # output

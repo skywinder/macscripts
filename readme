@@ -2,3 +2,7 @@
 ln -s /Users/p.korolev/Documents/Projects/macscripts/.gitconfig
 ln -s /Users/p.korolev/Documents/Projects/macscripts/.profile
 
+Preferences.sublime-settings
+Default (OSX).sublime-keymap
+to:
+/Users/p.korolev/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings
