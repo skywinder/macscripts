@@ -15,7 +15,6 @@ alias lsa="ls -a"
 alias lsa="lsa | grep"
 alias cpath="pwd | pbcopy"
 alias init-ssh="exec ssh-agent bash && ssh-add && security unlock-keychain"
-alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -51,4 +50,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+alias gmg="git merge --no-ff"
+alias mg="merge --no-ff"
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export EDITOR="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"

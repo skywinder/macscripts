@@ -2,6 +2,10 @@
 ln -s /Users/p.korolev/Documents/Projects/macscripts/.gitconfig
 ln -s /Users/p.korolev/Documents/Projects/macscripts/.profile
 
+sublme:
+$ sudo mkdir /usr/local/bin
+$ sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+
 Preferences.sublime-settings
 Default (OSX).sublime-keymap
 to:

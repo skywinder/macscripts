@@ -12,7 +12,7 @@
 	ps = push origin
 
 [core]
-	excludesfile = /Users/p.korolev/.gitignore_global
+	excludesfile = /Users/skywinder/.gitignore_global
 	editor = nano
 
 [difftool "sourcetree"]
