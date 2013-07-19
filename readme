@@ -1,6 +1,8 @@
+// Assumed that my nickname is skywinder 
+
 #Here is a cmd link to .gitconfig & .profile:
-ln -s /Users/p.korolev/Documents/Projects/macscripts/.gitconfig
-ln -s /Users/p.korolev/Documents/Projects/macscripts/.profile
+ln -s /Users/p.korolev/Documents/Projects/macscripts/.gitconfig ~/
+ln -s /Users/p.korolev/Documents/Projects/macscripts/.profile ~/
 
 sublme:
 $ sudo mkdir /usr/local/bin
